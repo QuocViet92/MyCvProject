@@ -36,7 +36,7 @@ const element = displayProject.slice(0,count).map(item => {
     return(
         <div className="container">
             <h1 className=" animition-right">PROJECT LIST</h1>
-            <div className="filter-project">
+    <div className="filter-project">
             <button className={`animition-left ${typeFilter ==='html,css,js' ? 'selected' :""} `} onClick={() => handleFilterChange("type", "html,css,js")}>Html, Css, Js</button>
             <button  className={`animition-right ${typeFilter ==='reactjs' ? 'selected' :""} `} onClick={() => handleFilterChange("type", "reactjs")}>ReactJs</button>
 

@@ -10,7 +10,6 @@ export default function Project({src ,name ,type,id ,state, ...props}){
        </div>
        <h4>Name  :<span> {name}</span></h4>
        <p>Type : <span>{type}</span> </p>
-      
        </Link>
        </div>
        </>
