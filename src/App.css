@@ -14,21 +14,21 @@ body {
   display:  flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 1.25rem;
 }
 .header ul a{
   list-style:  none;
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 .more-btn{
-  padding: 4px 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 0.25rem 0.625rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
   background-color: #47AA5D;
   color: #E3FFE9;
   border: none;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   cursor: pointer;
 }
 .avarta-small{
@@ -46,16 +46,16 @@ body {
   
 }
 .detail{
-  margin: 20px 0;
+  margin: 1.25rem 0;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 1.25rem;
   align-items: center;
   text-align: start;
 }
 .skill-container{
   display:  flex;
-  gap: 20px;
+  gap: 1.25rem;
   justify-content: center;
 }
 .skill-container img{
@@ -64,7 +64,7 @@ body {
 }
 .skill-paragraph{
   margin-top: 0 ;
-  margin-bottom: 10;
+  margin-bottom: 0.625rem;
 }
 .info h1{
   margin:0   ;
@@ -112,7 +112,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 180px;
-  gap: 20px;
+  gap: 1.25rem;
   overflow: hidden;
 }
 .project-list-home a{
@@ -120,42 +120,42 @@ body {
 }
 .filter-project{
   display: flex;
-  gap: 20px;
-  margin-bottom: 20px;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 .selected{
   background-color: #f7941d !important;
 }
 .filter-project button{
   border: none;
-  padding: 5px 10px;
+  padding: 0.3125rem 0.625rem;
   background-color: #47AA5D;
   color: #E3FFE9;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   text-decoration: none;
 }
 .title-info{
-  padding: 10px;
+  padding: 0.625rem;
 }
 .footer{
   width: 100%;
   position: absolute;
   bottom: -80px;
   height: 25px;
-  margin-top: 10px;
+  margin-top: 0.625rem;
   background-color: #47AA5D;
   color: #E3FFE9;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 .about-avarta{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
   text-align: start;
 }
 .about-avarta img{
@@ -165,10 +165,10 @@ body {
 }
 .contact-icon{
   display: flex;
-  gap: 10px;
-  padding: 10px;
+  gap: 0.625rem;
+  padding: 0.625rem;
    background-color: #47AA5D;
-  border-radius: 4px;
+  border-radius: 0.25rem;
 }
 .contact-icon svg{
   color: #E3FFE9;
@@ -176,13 +176,13 @@ body {
 .bnt-contact{
   justify-content: center;
   display: flex;
-  gap: 10px;
+  gap: 0.625rem;
 }
 .bnt-contact button{
-  padding: 5px 10px;
+  padding: 0.3125rem 0.625rem;
   font-weight: bold;
   border: none;
-  border-radius: 4px;
+  border-radius: 0.25rem;
 }
 .text-highlight{
   color: #f7941d;
