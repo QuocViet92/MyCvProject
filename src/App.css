@@ -7,7 +7,9 @@ body {
   color: #E3FFE9;
 }
 
-
+button{
+  cursor: pointer;
+}
 
 .header{
   background-color: #47AA5D;
@@ -173,13 +175,15 @@ body {
 }
 .contact-icon{
   display: flex;
-  gap: 0.625rem;
-  padding: 0.625rem;
+  gap: 1rem;
+  padding: 1rem;
    background-color: #47AA5D;
   border-radius: 0.25rem;
 }
 .contact-icon svg{
   color: #E3FFE9;
+  height: 50px;
+  width: 50px;
 }
 .bnt-contact{
   justify-content: center;
