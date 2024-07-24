@@ -83,13 +83,15 @@ max-height: 200px;
   display: flex;
   justify-content: start;
   text-align:  start;
-  font-weight: lighter;
   margin-bottom: 0.3125rem;
   text-decoration: underline;
-}
 
+}
+.back-link a{
+  color:#47AA5D ;
+}
 .back-link a:hover{
- color:#47AA5D;;
+  font-weight: bold;
  font-weight: bold;
  
 }

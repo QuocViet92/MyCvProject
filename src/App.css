@@ -111,7 +111,7 @@ body {
 .project-list-home{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 180px;
+  grid-template-rows: 290px;
   gap: 1.25rem;
   overflow: hidden;
 }
