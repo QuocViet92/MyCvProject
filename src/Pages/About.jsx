@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export default function About(){
     return(
+        <div className="page-about">
         <div className="About">
         <h1 className="animition-left"> ABOUT ME </h1>
         <div className="about-avarta">
@@ -19,6 +20,7 @@ export default function About(){
             </NavLink>
         </div>
         
+        </div>
         </div>
     )
 }

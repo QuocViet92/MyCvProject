@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Contact(){
     return(
-        <div >
-            <h1>CONTACT</h1>
+        <div className="page-contact">
+            <h1>CONTACT ME</h1>
             <div className="contact">
             <p>I'm always open to new opportunities and collaborations. Feel free to reach out to me through any of the channels below. Let's connect!</p>
             <div className="contact-icon">

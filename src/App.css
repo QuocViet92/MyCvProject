@@ -151,6 +151,14 @@ body {
   font-weight: bold;
   font-size: 0.625rem;
 }
+.page-about, .page-contact{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .about-avarta{
   display: flex;
   justify-content: center;
