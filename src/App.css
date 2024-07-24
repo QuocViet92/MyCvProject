@@ -50,8 +50,8 @@ button{
 .detail{
   margin: 1.25rem 0;
   display: flex;
-  justify-content: center;
-  gap: 3rem;
+  justify-content: space-around;
+  
   align-items: center;
   text-align: start;
 }
