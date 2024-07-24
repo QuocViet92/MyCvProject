@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #E7FFF3;
+  color: #47AA5D;
+  
+}
+body::-webkit-scrollbar {
+  display: none;  
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.project-box-img{
+  width: 100%;
+  height: 100px;
+  border-radius: 4px;
+
+}
+
+
+.project-box p , .project-box h4{
+  margin: 0;
+}
+.project-box p {
+  font-size: 10px;
+}
+.project-box{
+  max-width: 400px;
+  padding: 10px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px #0000001a;
+  gap: 3px;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color: white;
+}
+.project-box span{
+  font-weight: lighter;
+}
+.project-box:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.01);
+}
+.project-box a{
+  text-decoration: none;
+}
+.shareCode{
+  display:  flex;
+  justify-content: center;
+  gap: 40px;
+}
+.projects-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 20px;
+}
+
+.project-detail img{
+width: 100%;
+max-height: 200px;
+
+}
+
+.project-detail a{
+  text-decoration: none;
+}
+.back-link {
+  display: flex;
+  justify-content: start;
+  text-align:  start;
+  font-weight: lighter;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+
+.back-link a:hover{
+ color:#47AA5D;;
+ font-weight: bold;
+ 
+}
+.outlet{
+ padding: 0 20px;
+}
+.home-name{
+  text-decoration: underline;
+}
+.projects-home h2 ,.projects-home a{
+  color: #47AA5D;
+}
+.About p{
+  text-align: start;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
