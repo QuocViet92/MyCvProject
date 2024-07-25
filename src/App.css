@@ -277,3 +277,47 @@ color: #E3FFE9;
       bottom: 0; /* End at the original position */
   }
 }
+
+@media (max-width: 768px) {
+  h1{
+    font-size: 38px;
+  }
+  a ,ul , header{
+    font-size: 18px;
+  }
+ .header{
+  justify-content: center;
+ }
+  header ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 0px;
+   
+  }
+ 
+  .avarta-small{
+    display: none;
+  }
+  .detail{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .detail a{
+    font-size: 38px;
+  }
+  .avarta-large{
+    width: 300px;
+    height: 300px;
+  }
+  .project-list-home{
+    grid-template-columns: 1fr;
+    
+  }
+  .projects-list{
+    grid-template-columns: 1fr;
+  }
+  .projects-list  img{
+    height: 100px;
+  }
+}
