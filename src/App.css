@@ -285,6 +285,9 @@ color: #E3FFE9;
   a ,ul , header{
     font-size: 18px;
   }
+  .header a{
+    font-size: 38px;
+  }
  .header{
   justify-content: center;
  }
