@@ -280,13 +280,13 @@ color: #E3FFE9;
 
 @media (max-width: 768px) {
   h1{
-    font-size: 38px;
+    font-size: 2.375rem;
   }
   a ,ul , header{
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .header a{
-    font-size: 38px;
+    font-size: 2.375rem;
   }
  .header{
   justify-content: center;
@@ -304,10 +304,10 @@ color: #E3FFE9;
   }
   .detail{
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem;
   }
   .detail a{
-    font-size: 38px;
+    font-size: 2.375rem;
   }
   .avarta-large{
     width: 300px;
@@ -322,5 +322,9 @@ color: #E3FFE9;
   }
   .projects-list  img{
     height: 100px;
+  }
+  .about-avarta{
+    flex-direction: column;
+    gap: 0;
   }
 }
