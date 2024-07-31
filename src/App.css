@@ -224,6 +224,9 @@ color: #E3FFE9;
   background-color: #47AA5D;
   color: #E3FFE9;
 }
+.projects-home  h2{
+  display: inline;
+}
 .animition-left{
   position: relative;
   left: -300px;
