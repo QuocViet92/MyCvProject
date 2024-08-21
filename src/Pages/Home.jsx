@@ -16,7 +16,7 @@ const element = projects.slice(0,count).map(item => {
     return(
         <div className="Home">
     <div className="detail">
-     <NavLink to={'about'} className='home-avarta'><img className="avarta-large animition-left" src="/images/WeAreChampion.png" alt="aaa" /></NavLink> 
+     <NavLink to={'about'} className='home-avarta'><img className="avarta-large animition-left" src="/images/Avarta.jfif" alt="aaa" /></NavLink> 
       <div className="boderInfo">
       <div className="info">
         <h1 className="title-info animition-top">Hi 👋, My name is 

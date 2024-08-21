@@ -11,7 +11,7 @@ export default function Header(){
         <div className="container-header">
         <header className="header">
             <div>
-               <NavLink to={'about'}> <img className="avarta-small" src="/images/WeAreChampion.png" alt="" /></NavLink>
+               <NavLink to={'about'}> <img className="avarta-small" src="/images/Avarta.jfif" alt="" /></NavLink>
             </div>
             <ul>
                <NavLink
