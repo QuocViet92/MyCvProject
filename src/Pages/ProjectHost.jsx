@@ -1,11 +1,10 @@
-import React from "react";
-import ProjectList from "./Project/ProjectsList";
+import React from 'react';
+import ProjectList from './Project/ProjectsList';
 
-export default function ProjectHost(){
-    
-    return(
+export default function ProjectHost() {
+    return (
         <>
-        <ProjectList />
+            <ProjectList />
         </>
-    )
+    );
 }
